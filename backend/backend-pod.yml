@@ -6,7 +6,7 @@ metadata:
     app: backend
 spec:
   containers:
-    - name: EKS
+    - name: backend-container
       image: dhananjay03/easycrud:v6
       ports:
         - containerPort: 8080
